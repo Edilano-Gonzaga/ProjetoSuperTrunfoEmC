@@ -1,0 +1,24 @@
+Desafio Super Trunfo
+    Criando as cartas do Super Trunfo
+    O que fazer?
+        Criar um programa em C que permita ao usuário inserir os dados de duas cartas.
+        para cada carta, o usuário deverá fornecer as seguintes informações;
+            -Estado: Uma letra de "A" a "H" (representando o estado) tipo: char[],
+            -Código da Carta: A letra do estado seguida de um número de 01 a 04 (ex:A01, B03). tipo:char[] (um array de caracteres ou strings),
+            -Nome da Cidade: O nome da cidade. Tipo: char[] (string)
+            -População: O número de habitantes da cidade. Tipo: int
+            -Área (em km²): A área da cidade em quilômetros quadrados. Tipo: float
+            -PIB: O Produto Interno Bruto da cidade. Tipo: float
+            -Número de Pontos Turísticos: A quantidade de pontos turísticos na cidade. Tipo:int
+
+    Observação: Após o usuário inserir os dados de cada carta, seu programa deve exibir na tela as informações cadastradas, de forma organizada e legível. Para cada carta, imprima cada informação em uma linha separada, com uma descrição clara.
+
+    Consulta dos principais especificadores utilizados:
+
+    - **%d**: Imprime um inteiro no formato decimal.
+    - **%i**: Equivalente a %d.
+    - **%f**: Imprime um número de ponto flutuante no formato padrão.
+    - **%e**: Imprime um número de ponto flutuante na notação científica.
+    - **%c**: Imprime um único caractere.
+    - **%s**: Imprime uma cadeia (string) de caracteres.
+
